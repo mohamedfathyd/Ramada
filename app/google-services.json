@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854313570226",
+    "firebase_url": "https://ramada-801ab.firebaseio.com",
+    "project_id": "ramada-801ab",
+    "storage_bucket": "ramada-801ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854313570226:android:cf5cf3fd31b8f32ee19eab",
+        "android_client_info": {
+          "package_name": "com.khalej.ramada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854313570226-ocd1jkraatgfmdf6950n9i2m6ih14ffq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khalej.ramada",
+            "certificate_hash": "22fd65c93727d47d3cf5938ca60e08c55096fe37"
+          }
+        },
+        {
+          "client_id": "854313570226-hainqgu29oqidptfnml2k0focasc43e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbkLfpErvwOwM5q9yr38C-ojU4TPXMCuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854313570226-hainqgu29oqidptfnml2k0focasc43e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

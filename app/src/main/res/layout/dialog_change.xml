@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#f6f6f6"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="240dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/backshape"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+    android:orientation="vertical"
+
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="15dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:id="@+id/name"
+    />
+    <EditText
+        android:background="@drawable/shape"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="#000000"
+        android:inputType="text"
+        android:id="@+id/comment"
+
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="@drawable/backshape2"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/confirm"
+        android:text="@string/confirm"
+        />
+</LinearLayout>
+</RelativeLayout>
+</LinearLayout>

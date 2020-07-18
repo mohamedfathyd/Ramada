@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.khalej.ramada">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.RegisterDriver"></activity>
+        <activity android:name=".Activity.MainDriver" />
+        <activity android:name=".Activity.ChargeSuccess" />
+        <activity android:name=".Activity.ChargeDetails" />
+        <activity android:name=".Activity.ReadyCharges" />
+        <activity android:name=".Activity.OrderCurrentStatus" />
+        <activity android:name=".Activity.feedback" />
+        <activity android:name=".Activity.hand_address" />
+        <activity android:name=".Activity.SelectFromMap" />
+        <activity android:name=".Activity.mycharges" />
+        <activity android:name=".Activity.Profile" />
+        <activity android:name=".Activity.AddNewAddress" />
+        <activity android:name=".Activity.AddessList" />
+        <activity android:name=".Activity.countprice" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.khalej.ramada"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/my_path" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAmhHLBk_IDyZ6MKjv3kmk9Y1VtZzDV-3w" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.CodeMobile" />
+        <activity android:name=".Activity.intro_slider" />
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.Regester" />
+        <activity android:name=".Activity.ForgetPassword" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.SplashLang" />
+        <activity android:name=".Activity.CallUs" />
+        <activity android:name=".Activity.Terms_activity" />
+        <activity android:name=".Activity.Media_activity" />
+        <activity android:name=".Activity.WhoUs_activity" />
+    </application>
+
+</manifest>
